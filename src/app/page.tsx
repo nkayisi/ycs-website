@@ -115,7 +115,7 @@ export default function Home() {
 
         </Section>
 
-        <Section classNames="flex gap-10 bg-[#15BEE3] py-6">
+        <Section classNames="flex gap-10 bg-[#15BEE3] py-6 overflow-hidden">
           <Image src='/image-logo.png' width={100} height={100} className="w-[200px]" alt="Logo YCS" />
           <Image src='/image-logo.png' width={100} height={100} className="w-[200px]" alt="Logo YCS" />
           <Image src='/image-logo.png' width={100} height={100} className="w-[200px]" alt="Logo YCS" />
