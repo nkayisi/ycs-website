@@ -17,7 +17,7 @@ export default function Home() {
     }else {
       setNavBgClass('bg-[#141F39]');
     }
-  }, [y]);
+  }, [x, y]);
 
   return (
     <div className="font-[family-name:var(--font-geist-sans)]">
@@ -64,7 +64,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="text-[18px] font-thin">
-                  Nous adaptons notre conception de la recherche aux besoins spécifiques de votre projet, afin d'en garantir la pertinence et l'impact.
+                  Nous adaptons notre conception de la recherche aux besoins spécifiques de votre projet, afin d&apos;en garantir la pertinence et l&apos;impact.
                 </p>
               </div>
 
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
 
             <div className="py-4 text-gray-500">
-              <p className="text-center">Environ <strong>875+</strong> membres de l'équipe prêts à vous soutenir en ligne</p>
+              <p className="text-center">Environ <strong>875+</strong> membres de l&apos;équipe prêts à vous soutenir en ligne</p>
             </div>
           </div>
         </Section>
@@ -198,7 +198,7 @@ export default function Home() {
                   />
                 </div>
                 <p className="font-thin">
-                  Nous adaptons notre conception de la recherche aux besoins spécifiques de votre projet, afin d'en garantir la pertinence et l'impact.
+                  Nous adaptons notre conception de la recherche aux besoins spécifiques de votre projet, afin d&apos;en garantir la pertinence et l&apos;impact.
                 </p>
               </div>
               <div className="max-w-2xl flex flex-col gap-2 text-start">
@@ -281,10 +281,10 @@ export default function Home() {
                 <div>
                   <p>
                     Capacité avérée à concevoir et à mener des études de référence en utilisant des méthodes
-                    robustes de collecte et d'analyse des données.
+                    robustes de collecte et d&apos;analyse des données.
                   </p>
                   <p>
-                    Expertise en matière d'études qualitatives et quantitatives, garantissant des informations
+                    Expertise en matière d&apos;études qualitatives et quantitatives, garantissant des informations
                     nuancées et exploitables.
                   </p>
                 </div>
@@ -297,12 +297,12 @@ export default function Home() {
               >
                 <div>
                   <p>
-                    Compétences dans l'utilisation d'outils d'analyse de données pour générer des rapports, des
+                    Compétences dans l&apos;utilisation d&apos;outils d&apos;analyse de données pour générer des rapports, des
                     tableaux de bord et des prévisions.
                   </p>
                   <p>
-                    Expérience de l'utilisation des plateformes USSD et de la technologie mobile pour la collecte
-                    de données et l'engagement des parties prenantes dans les régions éloignées.
+                    Expérience de l&apos;utilisation des plateformes USSD et de la technologie mobile pour la collecte
+                    de données et l&apos;engagement des parties prenantes dans les régions éloignées.
                   </p>
                 </div>
               </AccordionItem>
@@ -314,10 +314,10 @@ export default function Home() {
               >
                 <div>
                   <p>
-                    Un large réseau d'acteurs du secteur privé, d'autorités locales et de partenaires du développement en RDC.
+                    Un large réseau d&apos;acteurs du secteur privé, d&apos;autorités locales et de partenaires du développement en RDC.
                   </p>
                   <p>
-                    Capacité à faciliter l'engagement des parties prenantes et à assurer une collaboration harmonieuse tout au long du processus de recherche.
+                    Capacité à faciliter l&apos;engagement des parties prenantes et à assurer une collaboration harmonieuse tout au long du processus de recherche.
                   </p>
                 </div>
               </AccordionItem>
